@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B2D521120C35578002C7297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2D521020C35578002C7297 /* AppDelegate.swift */; };
+		8B2D521320C35578002C7297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2D521220C35578002C7297 /* ViewController.swift */; };
+		8B2D521620C35578002C7297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2D521420C35578002C7297 /* Main.storyboard */; };
+		8B2D521820C35578002C7297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2D521720C35578002C7297 /* Assets.xcassets */; };
+		8B2D521B20C35578002C7297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2D521920C35578002C7297 /* LaunchScreen.storyboard */; };
+		8B2D522620C35578002C7297 /* BooFindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2D522520C35578002C7297 /* BooFindTests.swift */; };
+		8B2D523120C35579002C7297 /* BooFindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2D523020C35579002C7297 /* BooFindUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B2D522220C35578002C7297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B2D520520C35578002C7297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B2D520C20C35578002C7297;
+			remoteInfo = BooFind;
+		};
+		8B2D522D20C35579002C7297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B2D520520C35578002C7297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B2D520C20C35578002C7297;
+			remoteInfo = BooFind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B2D520D20C35578002C7297 /* BooFind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BooFind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2D521020C35578002C7297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B2D521220C35578002C7297 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B2D521520C35578002C7297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B2D521720C35578002C7297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B2D521A20C35578002C7297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B2D521C20C35578002C7297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B2D522120C35578002C7297 /* BooFindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BooFindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2D522520C35578002C7297 /* BooFindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooFindTests.swift; sourceTree = "<group>"; };
+		8B2D522720C35578002C7297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B2D522C20C35579002C7297 /* BooFindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BooFindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2D523020C35579002C7297 /* BooFindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooFindUITests.swift; sourceTree = "<group>"; };
+		8B2D523220C35579002C7297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B2D520A20C35578002C7297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2D521E20C35578002C7297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2D522920C35579002C7297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B2D520420C35578002C7297 = {
+			isa = PBXGroup;
+			children = (
+				8B2D520F20C35578002C7297 /* BooFind */,
+				8B2D522420C35578002C7297 /* BooFindTests */,
+				8B2D522F20C35579002C7297 /* BooFindUITests */,
+				8B2D520E20C35578002C7297 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B2D520E20C35578002C7297 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B2D520D20C35578002C7297 /* BooFind.app */,
+				8B2D522120C35578002C7297 /* BooFindTests.xctest */,
+				8B2D522C20C35579002C7297 /* BooFindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B2D520F20C35578002C7297 /* BooFind */ = {
+			isa = PBXGroup;
+			children = (
+				8B2D521020C35578002C7297 /* AppDelegate.swift */,
+				8B2D521220C35578002C7297 /* ViewController.swift */,
+				8B2D521420C35578002C7297 /* Main.storyboard */,
+				8B2D521720C35578002C7297 /* Assets.xcassets */,
+				8B2D521920C35578002C7297 /* LaunchScreen.storyboard */,
+				8B2D521C20C35578002C7297 /* Info.plist */,
+			);
+			path = BooFind;
+			sourceTree = "<group>";
+		};
+		8B2D522420C35578002C7297 /* BooFindTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B2D522520C35578002C7297 /* BooFindTests.swift */,
+				8B2D522720C35578002C7297 /* Info.plist */,
+			);
+			path = BooFindTests;
+			sourceTree = "<group>";
+		};
+		8B2D522F20C35579002C7297 /* BooFindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B2D523020C35579002C7297 /* BooFindUITests.swift */,
+				8B2D523220C35579002C7297 /* Info.plist */,
+			);
+			path = BooFindUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B2D520C20C35578002C7297 /* BooFind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2D523520C35579002C7297 /* Build configuration list for PBXNativeTarget "BooFind" */;
+			buildPhases = (
+				8B2D520920C35578002C7297 /* Sources */,
+				8B2D520A20C35578002C7297 /* Frameworks */,
+				8B2D520B20C35578002C7297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BooFind;
+			productName = BooFind;
+			productReference = 8B2D520D20C35578002C7297 /* BooFind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B2D522020C35578002C7297 /* BooFindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2D523820C35579002C7297 /* Build configuration list for PBXNativeTarget "BooFindTests" */;
+			buildPhases = (
+				8B2D521D20C35578002C7297 /* Sources */,
+				8B2D521E20C35578002C7297 /* Frameworks */,
+				8B2D521F20C35578002C7297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B2D522320C35578002C7297 /* PBXTargetDependency */,
+			);
+			name = BooFindTests;
+			productName = BooFindTests;
+			productReference = 8B2D522120C35578002C7297 /* BooFindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B2D522B20C35579002C7297 /* BooFindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2D523B20C35579002C7297 /* Build configuration list for PBXNativeTarget "BooFindUITests" */;
+			buildPhases = (
+				8B2D522820C35579002C7297 /* Sources */,
+				8B2D522920C35579002C7297 /* Frameworks */,
+				8B2D522A20C35579002C7297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B2D522E20C35579002C7297 /* PBXTargetDependency */,
+			);
+			name = BooFindUITests;
+			productName = BooFindUITests;
+			productReference = 8B2D522C20C35579002C7297 /* BooFindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B2D520520C35578002C7297 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Erin McAuliffe";
+				TargetAttributes = {
+					8B2D520C20C35578002C7297 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8B2D522020C35578002C7297 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B2D520C20C35578002C7297;
+					};
+					8B2D522B20C35579002C7297 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B2D520C20C35578002C7297;
+					};
+				};
+			};
+			buildConfigurationList = 8B2D520820C35578002C7297 /* Build configuration list for PBXProject "BooFind" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B2D520420C35578002C7297;
+			productRefGroup = 8B2D520E20C35578002C7297 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B2D520C20C35578002C7297 /* BooFind */,
+				8B2D522020C35578002C7297 /* BooFindTests */,
+				8B2D522B20C35579002C7297 /* BooFindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B2D520B20C35578002C7297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2D521B20C35578002C7297 /* LaunchScreen.storyboard in Resources */,
+				8B2D521820C35578002C7297 /* Assets.xcassets in Resources */,
+				8B2D521620C35578002C7297 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2D521F20C35578002C7297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2D522A20C35579002C7297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B2D520920C35578002C7297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2D521320C35578002C7297 /* ViewController.swift in Sources */,
+				8B2D521120C35578002C7297 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2D521D20C35578002C7297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2D522620C35578002C7297 /* BooFindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2D522820C35579002C7297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2D523120C35579002C7297 /* BooFindUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B2D522320C35578002C7297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B2D520C20C35578002C7297 /* BooFind */;
+			targetProxy = 8B2D522220C35578002C7297 /* PBXContainerItemProxy */;
+		};
+		8B2D522E20C35579002C7297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B2D520C20C35578002C7297 /* BooFind */;
+			targetProxy = 8B2D522D20C35579002C7297 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B2D521420C35578002C7297 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B2D521520C35578002C7297 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B2D521920C35578002C7297 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B2D521A20C35578002C7297 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B2D523320C35579002C7297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B2D523420C35579002C7297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B2D523620C35579002C7297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WRDX5NC89S;
+				INFOPLIST_FILE = BooFind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ErinMcAuliffe.BooFind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B2D523720C35579002C7297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WRDX5NC89S;
+				INFOPLIST_FILE = BooFind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ErinMcAuliffe.BooFind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B2D523920C35579002C7297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WRDX5NC89S;
+				INFOPLIST_FILE = BooFindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ErinMcAuliffe.BooFindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BooFind.app/BooFind";
+			};
+			name = Debug;
+		};
+		8B2D523A20C35579002C7297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WRDX5NC89S;
+				INFOPLIST_FILE = BooFindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ErinMcAuliffe.BooFindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BooFind.app/BooFind";
+			};
+			name = Release;
+		};
+		8B2D523C20C35579002C7297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WRDX5NC89S;
+				INFOPLIST_FILE = BooFindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ErinMcAuliffe.BooFindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BooFind;
+			};
+			name = Debug;
+		};
+		8B2D523D20C35579002C7297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WRDX5NC89S;
+				INFOPLIST_FILE = BooFindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ErinMcAuliffe.BooFindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BooFind;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B2D520820C35578002C7297 /* Build configuration list for PBXProject "BooFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2D523320C35579002C7297 /* Debug */,
+				8B2D523420C35579002C7297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2D523520C35579002C7297 /* Build configuration list for PBXNativeTarget "BooFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2D523620C35579002C7297 /* Debug */,
+				8B2D523720C35579002C7297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2D523820C35579002C7297 /* Build configuration list for PBXNativeTarget "BooFindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2D523920C35579002C7297 /* Debug */,
+				8B2D523A20C35579002C7297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2D523B20C35579002C7297 /* Build configuration list for PBXNativeTarget "BooFindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2D523C20C35579002C7297 /* Debug */,
+				8B2D523D20C35579002C7297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B2D520520C35578002C7297 /* Project object */;
+}
