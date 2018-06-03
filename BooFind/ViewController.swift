@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var fedFood: UIButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
