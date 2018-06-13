@@ -17,6 +17,7 @@
 		8B2D521B20C35578002C7297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2D521920C35578002C7297 /* LaunchScreen.storyboard */; };
 		8B2D522620C35578002C7297 /* BooFindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2D522520C35578002C7297 /* BooFindTests.swift */; };
 		8B2D523120C35579002C7297 /* BooFindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2D523020C35579002C7297 /* BooFindUITests.swift */; };
+		8BA4B57E20D097F80041EEEA /* NotVisitedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4B57D20D097F80041EEEA /* NotVisitedTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8B2D522C20C35579002C7297 /* BooFindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BooFindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2D523020C35579002C7297 /* BooFindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooFindUITests.swift; sourceTree = "<group>"; };
 		8B2D523220C35579002C7297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA4B57D20D097F80041EEEA /* NotVisitedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotVisitedTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,13 +90,6 @@
 			path = Restaurant;
 			sourceTree = "<group>";
 		};
-		2514F6B120C59FFD005A3F33 /* AddRestaurant */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AddRestaurant;
-			sourceTree = "<group>";
-		};
 		2514F6B420C5A3A3005A3F33 /* ListRestaurant */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				2514F6BB20C5A47A005A3F33 /* NotVisitedViewController.swift */,
+				8BA4B57D20D097F80041EEEA /* NotVisitedTableViewCell.swift */,
 			);
 			path = NotVisited;
 			sourceTree = "<group>";
@@ -145,7 +141,6 @@
 			isa = PBXGroup;
 			children = (
 				2514F6B420C5A3A3005A3F33 /* ListRestaurant */,
-				2514F6B120C59FFD005A3F33 /* AddRestaurant */,
 				2514F6AF20C59FC8005A3F33 /* Restaurant */,
 				8B2D521020C35578002C7297 /* AppDelegate.swift */,
 				8B2D521420C35578002C7297 /* Main.storyboard */,
@@ -312,6 +307,7 @@
 				2514F6BC20C5A47A005A3F33 /* NotVisitedViewController.swift in Sources */,
 				2514F6BA20C5A46F005A3F33 /* VisitedViewController.swift in Sources */,
 				2514F6B620C5A3E0005A3F33 /* ContainerViewController.swift in Sources */,
+				8BA4B57E20D097F80041EEEA /* NotVisitedTableViewCell.swift in Sources */,
 				2514F6B320C5A028005A3F33 /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

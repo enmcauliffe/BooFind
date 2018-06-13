@@ -8,8 +8,8 @@
 
 import UIKit
 
-class NotVisitedViewController: UIViewController {
-
+class NotVisitedViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,7 +21,18 @@ class NotVisitedViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "notVisitedCell") as! NotVisitedTableViewCell
+        cell.neighborhoodLabel.text = "Federal Hill"
+        return cell
+    }
+    
+    
+    
     /*
     // MARK: - Navigation
 
